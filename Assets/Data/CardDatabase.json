@@ -259,8 +259,248 @@
         }
     ],
     "NatureCards":
-    [],
+    [
+        {
+            "cardName": "Earthquake",
+            "order": 2,
+            "type": 2,
+            "cost": {
+                "manaCost": 6,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Deal 10 to all characters without airborne"
+        },
+        {
+            "cardName": "Tsunami",
+            "order": 2,
+            "type": 2,
+            "cost": {
+                "manaCost": 4,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Knockback the enemy frontlines"
+        },
+        {
+            "cardName": "Vines",
+            "order": 2,
+            "type": 2,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Cover the field in Vines"
+        },
+        {
+            "cardName": "Early Harvest",
+            "order": 2,
+            "type": 2,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Create 2 [Plants] on the frontlines"
+        },
+        {
+            "cardName": "Plant",
+            "order": 2,
+            "type": 1,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 3,
+            "range": 1,
+            "rulesText": "Gain {N} at start of turn"
+        },
+        {
+            "cardName": "Viper",
+            "order": 2,
+            "type": 1,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 2,
+            "defense": 3,
+            "range": 1,
+            "rulesText": "<Ambush> <Venomous>"
+        },
+        {
+            "cardName": "Behemoth",
+            "order": 2,
+            "type": 1,
+            "cost": {
+                "manaCost": 8,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 8,
+            "defense": 8,
+            "range": 1,
+            "rulesText": "<Reckless> <Overkill>"
+        }
+    ],
     "ArcaneCards":
-    []
+    [
+        {
+            "cardName": "Mimic",
+            "order": 3,
+            "type": 1,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 1,
+            "defense": 1,
+            "range": 1,
+            "rulesText": "On Summon: Become a copy of any minion"
+        },
+        {
+            "cardName": "Telekinesis",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Move any character"
+        },
+        {
+            "cardName": "Teleport",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Return any minion to the hand"
+        },
+        {
+            "cardName": "Wizard Apprentice",
+            "order": 3,
+            "type": 1,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 1,
+            "defense": 1,
+            "range": 2,
+            "rulesText": "On Summon: Deal 1"
+        },
+        {
+            "cardName": "Wizard",
+            "order": 3,
+            "type": 1,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 1,
+            "defense": 3,
+            "range": 2,
+            "rulesText": "On Summon: Deal 2"
+        },
+        {
+            "cardName": "Pyromancer",
+            "order": 3,
+            "type": 1,
+            "cost": {
+                "manaCost": 5,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 2,
+            "defense": 4,
+            "range": 2,
+            "rulesText": "On Spellcast: Deal 2"
+        },
+        {
+            "cardName": "Staff of Flames",
+            "order": 3,
+            "type": 3,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "On Spellcast: Deal 2"
+        },
+        {
+            "cardName": "Insight",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Draw 2"
+        },
+        {
+            "cardName": "The Moon",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 6,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Enemy frontlines attacks their backlines"
+        },
+        {
+            "cardName": "Study",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Draw 1"
+        }
+    ]
 }
 

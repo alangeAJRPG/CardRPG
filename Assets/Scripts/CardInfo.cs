@@ -32,6 +32,8 @@ public class CardInfo
     public int range;
 
     public string rulesText;
+
+    public Sprite cardArt;
 }
 
 [Serializable]

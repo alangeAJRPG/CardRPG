@@ -8,6 +8,7 @@ using UnityEngine.Serialization;
 public class JSONCardReader : MonoBehaviour
 {
     public TextAsset textJSON;
+    public CardArtDataStore artData;
     
     public static readonly List<CardInfo> MasterList = new List<CardInfo>();
     public static readonly List<CardInfo> DeathList = new List<CardInfo>();
@@ -34,6 +35,8 @@ public class JSONCardReader : MonoBehaviour
 
     private void LoadMasterList()
     {
+        FetchCardArt();
+        
         MasterList.AddRange(fromJsonList.DeathCards.ToList());
         MasterList.AddRange(fromJsonList.HolyCards.ToList());
         MasterList.AddRange(fromJsonList.NatureCards.ToList());
@@ -43,5 +46,49 @@ public class JSONCardReader : MonoBehaviour
         HolyList.AddRange(fromJsonList.HolyCards.ToList());
         NatureList.AddRange(fromJsonList.NatureCards.ToList());
         ArcaneList.AddRange(fromJsonList.ArcaneCards.ToList());
+        
+    }
+
+    private void FetchCardArt()
+    {
+        for (int i = 0; i < fromJsonList.DeathCards.Length; i++)
+        {
+            CardArt s = artData.cardArtList.FirstOrDefault(art => art.cardName == fromJsonList.DeathCards[i].cardName);
+
+            if (s != null)
+            {
+                fromJsonList.DeathCards[i].cardArt = s.cardImage;
+            }
+        }
+        
+        for (int i = 0; i < fromJsonList.HolyCards.Length; i++)
+        {
+            CardArt s = artData.cardArtList.FirstOrDefault(art => art.cardName == fromJsonList.HolyCards[i].cardName);
+
+            if (s != null)
+            {
+                fromJsonList.HolyCards[i].cardArt = s.cardImage;
+            }
+        }
+        
+        for (int i = 0; i < fromJsonList.NatureCards.Length; i++)
+        {
+            CardArt s = artData.cardArtList.FirstOrDefault(art => art.cardName == fromJsonList.NatureCards[i].cardName);
+
+            if (s != null)
+            {
+                fromJsonList.NatureCards[i].cardArt = s.cardImage;
+            }
+        }
+        
+        for (int i = 0; i < fromJsonList.ArcaneCards.Length; i++)
+        {
+            CardArt s = artData.cardArtList.FirstOrDefault(art => art.cardName == fromJsonList.ArcaneCards[i].cardName);
+
+            if (s != null)
+            {
+                fromJsonList.ArcaneCards[i].cardArt = s.cardImage;
+            }
+        }
     }
 }

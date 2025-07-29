@@ -767,6 +767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textJSON: {fileID: 4900000, guid: 58743c9dfd684203ab84dfa58b56ab38, type: 3}
+  artData: {fileID: 11400000, guid: 2ced0b13ed1c24b45abfc99f890bf8c1, type: 2}
 --- !u!4 &807778043
 Transform:
   m_ObjectHideFlags: 0
