@@ -1,0 +1,535 @@
+{
+    "DeathCards": [
+        {
+            "cardName": "Lich",
+            "order": 0,
+            "type": 0,
+            "cost": {
+                "manaCost": 0,
+                "sacrificeCost": 0,
+                "lifeCost": 5
+            },
+            "attack": 1,
+            "defense": 8,
+            "range": 2,
+            "rulesText": "Add {D}{D} at start of turn. Once each turn, you may create a zombie on the front lines",
+            "cardID": 0
+        },
+        {
+            "cardName": "Consuming Mass",
+            "order": 0,
+            "type": 0,
+            "cost": {
+                "manaCost": 0,
+                "sacrificeCost": 3,
+                "lifeCost": 5
+            },
+            "attack": 0,
+            "defense": 10,
+            "range": 1,
+            "rulesText": "Gain {D}{D}{D}{D} at start of turn. ATK is equal to the ATK of all characters sacrificed to summon it.",
+            "cardID": 1
+        },
+        {
+            "cardName": "Zombie",
+            "order": 0,
+            "type": 1,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 2,
+            "defense": 1,
+            "range": 1,
+            "rulesText": "",
+            "cardID": 2
+        },
+        {
+            "cardName": "Shade",
+            "order": 0,
+            "type": 1,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 1,
+            "defense": 1,
+            "range": 3,
+            "rulesText": "",
+            "cardID": 3
+        },
+        {
+            "cardName": "Assassin",
+            "order": 0,
+            "type": 1,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 1,
+                "lifeCost": 0
+            },
+            "attack": 3,
+            "defense": 1,
+            "range": 3,
+            "rulesText": "Can Only attack the back lines. Ambush. Sneak Attack",
+            "cardID": 4
+        },
+        {
+            "cardName": "Undead Giant",
+            "order": 0,
+            "type": 1,
+            "cost": {
+                "manaCost": 4,
+                "sacrificeCost": 2,
+                "lifeCost": 0
+            },
+            "attack": 8,
+            "defense": 8,
+            "range": 2,
+            "rulesText": "",
+            "cardID": 5
+        },
+        {
+            "cardName": "Death",
+            "order": 0,
+            "type": 2,
+            "cost": {
+                "manaCost": 5,
+                "sacrificeCost": 1,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Kill any minion",
+            "cardID": 6
+        },
+        {
+            "cardName": "Vampirism",
+            "order": 0,
+            "type": 2,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Drain 3",
+            "cardID": 7
+        },
+        {
+            "cardName": "Exploit",
+            "order": 0,
+            "type": 2,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Sacrifice a character. Draw 2.",
+            "cardID": 8
+        }
+    ],
+    "HolyCards": [
+        {
+            "cardName": "Holy Knight",
+            "order": 1,
+            "type": 0,
+            "cost": {
+                "manaCost": 0,
+                "sacrificeCost": 0,
+                "lifeCost": 5
+            },
+            "attack": 2,
+            "defense": 7,
+            "range": 1,
+            "rulesText": "Add {H}{H} at start of turn. Once each turn, bless another character",
+            "cardID": 9
+        },
+        {
+            "cardName": "Divine Guardian",
+            "order": 1,
+            "type": 0,
+            "cost": {
+                "manaCost": 0,
+                "sacrificeCost": 1,
+                "lifeCost": 10
+            },
+            "attack": 6,
+            "defense": 10,
+            "range": 2,
+            "rulesText": "Gain {H}{H}{H} at start of turn. Provoke. Retaliate equal to this characters ATK",
+            "cardID": 10
+        },
+        {
+            "cardName": "Spear Fighter",
+            "order": 1,
+            "type": 1,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 2,
+            "defense": 3,
+            "range": 2,
+            "rulesText": "",
+            "cardID": 11
+        },
+        {
+            "cardName": "Phalanx",
+            "order": 1,
+            "type": 1,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 3,
+            "defense": 6,
+            "range": 1,
+            "rulesText": "Retaliate 2",
+            "cardID": 12
+        },
+        {
+            "cardName": "Arch Angel",
+            "order": 1,
+            "type": 1,
+            "cost": {
+                "manaCost": 5,
+                "sacrificeCost": 2,
+                "lifeCost": 0
+            },
+            "attack": 5,
+            "defense": 5,
+            "range": 3,
+            "rulesText": "On Summon: Cleanse any tile, restore 5 hp to any character",
+            "cardID": 13
+        },
+        {
+            "cardName": "The Sun",
+            "order": 1,
+            "type": 2,
+            "cost": {
+                "manaCost": 4,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Deal 4 to each character. Cleanse all tiles.",
+            "cardID": 14
+        },
+        {
+            "cardName": "Prayer",
+            "order": 1,
+            "type": 2,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Draw. Gain LF for each card in your hand.",
+            "cardID": 15
+        },
+        {
+            "cardName": "Blessed Blade",
+            "order": 1,
+            "type": 3,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Armed character has +2 ATK",
+            "cardID": 16
+        },
+        {
+            "cardName": "Mask of Provocation",
+            "order": 1,
+            "type": 3,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Armed character has Provoke",
+            "cardID": 17
+        }
+    ],
+    "NatureCards": [
+        {
+            "cardName": "Earthquake",
+            "order": 2,
+            "type": 2,
+            "cost": {
+                "manaCost": 6,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Deal 10 to all characters without airborne",
+            "cardID": 18
+        },
+        {
+            "cardName": "Tsunami",
+            "order": 2,
+            "type": 2,
+            "cost": {
+                "manaCost": 4,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Knockback the enemy frontlines",
+            "cardID": 19
+        },
+        {
+            "cardName": "Vines",
+            "order": 2,
+            "type": 2,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Cover the field in Vines",
+            "cardID": 20
+        },
+        {
+            "cardName": "Early Harvest",
+            "order": 2,
+            "type": 2,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Create 2 [Plants] on the frontlines",
+            "cardID": 21
+        },
+        {
+            "cardName": "Plant",
+            "order": 2,
+            "type": 1,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 3,
+            "range": 1,
+            "rulesText": "Gain {N} at start of turn",
+            "cardID": 22
+        },
+        {
+            "cardName": "Viper",
+            "order": 2,
+            "type": 1,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 2,
+            "defense": 3,
+            "range": 1,
+            "rulesText": "<Ambush> <Venomous>",
+            "cardID": 23
+        },
+        {
+            "cardName": "Behemoth",
+            "order": 2,
+            "type": 1,
+            "cost": {
+                "manaCost": 8,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 8,
+            "defense": 8,
+            "range": 1,
+            "rulesText": "<Reckless> <Overkill>",
+            "cardID": 24
+        }
+    ],
+    "ArcaneCards": [
+        {
+            "cardName": "Mimic",
+            "order": 3,
+            "type": 1,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 1,
+            "defense": 1,
+            "range": 1,
+            "rulesText": "On Summon: Become a copy of any minion",
+            "cardID": 25
+        },
+        {
+            "cardName": "Telekinesis",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Move any character",
+            "cardID": 26
+        },
+        {
+            "cardName": "Teleport",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Return any minion to the hand",
+            "cardID": 27
+        },
+        {
+            "cardName": "Wizard Apprentice",
+            "order": 3,
+            "type": 1,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 1,
+            "defense": 1,
+            "range": 2,
+            "rulesText": "On Summon: Deal 1",
+            "cardID": 28
+        },
+        {
+            "cardName": "Wizard",
+            "order": 3,
+            "type": 1,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 1,
+            "defense": 3,
+            "range": 2,
+            "rulesText": "On Summon: Deal 2",
+            "cardID": 29
+        },
+        {
+            "cardName": "Pyromancer",
+            "order": 3,
+            "type": 1,
+            "cost": {
+                "manaCost": 5,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 2,
+            "defense": 4,
+            "range": 2,
+            "rulesText": "On Spellcast: Deal 2",
+            "cardID": 30
+        },
+        {
+            "cardName": "Staff of Flames",
+            "order": 3,
+            "type": 3,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "On Spellcast: Deal 2",
+            "cardID": 31
+        },
+        {
+            "cardName": "Insight",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Draw 2",
+            "cardID": 32
+        },
+        {
+            "cardName": "The Moon",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 6,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Enemy frontlines attacks their backlines",
+            "cardID": 33
+        },
+        {
+            "cardName": "Study",
+            "order": 3,
+            "type": 2,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Draw 1",
+            "cardID": 34
+        }
+    ]
+}

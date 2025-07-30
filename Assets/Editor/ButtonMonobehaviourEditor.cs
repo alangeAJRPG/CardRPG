@@ -2,8 +2,8 @@ using UnityEditor;
 using UnityEngine;
 using System.Reflection;
 
-[CustomEditor(typeof(ScriptableObject), true)]
-public class ButtonEditor : Editor
+[CustomEditor(typeof(MonoBehaviour), true)]
+public class ButtonMonobehaviourEditor : Editor
 {
     public override void OnInspectorGUI()
     {

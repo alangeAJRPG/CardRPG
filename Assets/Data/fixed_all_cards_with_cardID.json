@@ -1,0 +1,142 @@
+{
+    "DeathCards": [
+        {
+            "cardName": "Lich",
+            "order": 0,
+            "type": 0,
+            "cost": {
+                "manaCost": 0,
+                "sacrificeCost": 0,
+                "lifeCost": 5
+            },
+            "attack": 1,
+            "defense": 8,
+            "range": 2,
+            "rulesText": "Add {D}{D} at start of turn. Once each turn, you may create a zombie on the front lines",
+            "cardID": 0
+        },
+        {
+            "cardName": "Consuming Mass",
+            "order": 0,
+            "type": 0,
+            "cost": {
+                "manaCost": 0,
+                "sacrificeCost": 3,
+                "lifeCost": 5
+            },
+            "attack": 0,
+            "defense": 10,
+            "range": 1,
+            "rulesText": "Gain {D}{D}{D}{D} at start of turn. ATK is equal to the ATK of all characters sacrificed to summon it.",
+            "cardID": 1
+        },
+        {
+            "cardName": "Zombie",
+            "order": 0,
+            "type": 1,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 2,
+            "defense": 1,
+            "range": 1,
+            "rulesText": "",
+            "cardID": 2
+        },
+        {
+            "cardName": "Shade",
+            "order": 0,
+            "type": 1,
+            "cost": {
+                "manaCost": 1,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 1,
+            "defense": 1,
+            "range": 3,
+            "rulesText": "",
+            "cardID": 3
+        },
+        {
+            "cardName": "Assassin",
+            "order": 0,
+            "type": 1,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 1,
+                "lifeCost": 0
+            },
+            "attack": 3,
+            "defense": 1,
+            "range": 3,
+            "rulesText": "Can Only attack the back lines. Ambush. Sneak Attack",
+            "cardID": 4
+        },
+        {
+            "cardName": "Undead Giant",
+            "order": 0,
+            "type": 1,
+            "cost": {
+                "manaCost": 4,
+                "sacrificeCost": 2,
+                "lifeCost": 0
+            },
+            "attack": 8,
+            "defense": 8,
+            "range": 2,
+            "rulesText": "",
+            "cardID": 5
+        },
+        {
+            "cardName": "Death",
+            "order": 0,
+            "type": 2,
+            "cost": {
+                "manaCost": 5,
+                "sacrificeCost": 1,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Kill any minion",
+            "cardID": 6
+        },
+        {
+            "cardName": "Vampirism",
+            "order": 0,
+            "type": 2,
+            "cost": {
+                "manaCost": 3,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Drain 3",
+            "cardID": 7
+        },
+        {
+            "cardName": "Exploit",
+            "order": 0,
+            "type": 2,
+            "cost": {
+                "manaCost": 2,
+                "sacrificeCost": 0,
+                "lifeCost": 0
+            },
+            "attack": 0,
+            "defense": 0,
+            "range": 0,
+            "rulesText": "Sacrifice a character. Draw 2.",
+            "cardID": 8
+        }
+    ],
+    "HolyCards": [],
+    "NatureCards": [],
+    "ArcaneCards": []
+}

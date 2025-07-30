@@ -23,6 +23,7 @@ public enum Orders
 [Serializable]
 public class CardInfo
 {
+    public int cardID;
     public string cardName = "";
     public Orders order;
     public CardType type = CardType.Champion;

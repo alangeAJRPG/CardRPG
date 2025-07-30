@@ -2,18 +2,20 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class CardListDecorator : MonoBehaviour
 {
     [Header("References")]
     public GameObject cardsBasePrefab;
     public Transform cardParent;
-    public JSONCardReader cardReader;
+    //public JSONCardReader cardReader;
     
     [Header("Options")]
     [SerializeField] private float cardScale;
     [SerializeField] private int maxCardsPerPage;
     public CardFilterOptions filterOptions = new CardFilterOptions();
+    public bool useMasterList = false;
 
     [Header("UI")]
     [SerializeField] private GameObject backButton;
@@ -27,13 +29,22 @@ public class CardListDecorator : MonoBehaviour
         RefreshCardList();
     }
 
-    private List<CardInfo> currentList;
+    private List<CardInfo> currentList = new List<CardInfo>();
+    private List<CardInfo> customList = new List<CardInfo>();
 
+    [Button]
     private void RefreshCardList()
     {
-        currentList = JSONCardReader.MasterList;
+        currentList = useMasterList ? JSONCardReader.MasterList : customList;
         currentList = CardListUtilities.FilterList(currentList, filterOptions);
         LoadCardList(currentList, 0);
+    }
+
+    public void ApplyCustomList(List<CardInfo> cardInfos)
+    {
+        customList.Clear();
+        customList.AddRange(cardInfos);
+        RefreshCardList();
     }
 
     public void LoadCardList(List<CardInfo> viewList, int page = 0)

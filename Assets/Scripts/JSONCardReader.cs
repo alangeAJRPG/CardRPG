@@ -33,6 +33,18 @@ public class JSONCardReader : MonoBehaviour
         LoadMasterList();
     }
 
+    public static List<CardInfo> GetCardListFromIDs(List<CARD_IDS> deckList)
+    {
+        List<CardInfo> result = new List<CardInfo>();
+        
+        foreach (var id in deckList)
+        {
+            result.Add(MasterList.FirstOrDefault(card => card.cardID == (int)id));
+        }
+
+        return result;
+    }
+    
     private void LoadMasterList()
     {
         FetchCardArt();
